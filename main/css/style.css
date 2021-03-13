@@ -5,3 +5,10 @@
 h1 {
 
 }
+
+body {
+  position: relative;
+
+  background: #F4F0ED;
+  font-family: 'Helvetica', sans-serif;
+}
