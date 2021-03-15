@@ -180,6 +180,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+.zzip-web {
+  grid-row: 8;
+  grid-column: 1/14;
+}
+
+
 
 
 
