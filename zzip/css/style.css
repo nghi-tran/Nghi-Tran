@@ -67,7 +67,7 @@ body {
 }
 
 .zzip-intro {
-  grid-column: 1/6;
+  grid-column: 1/10;
   grid-row: 15;
   font-size: 20px;
   font-size: 20px;
@@ -90,6 +90,12 @@ body {
 
   letter-spacing: 0.02em;
 
+}
+
+.zzip-body {
+  grid-column: 1/14;
+  grid-row: 35;
+  object-fit: contain;
 }
 
 
