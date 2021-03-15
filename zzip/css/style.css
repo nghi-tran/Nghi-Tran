@@ -93,7 +93,7 @@ body {
 }
 
 .zzip-body-container {
-  grid-column: 1/14;
+  grid-column: 1/15;
   grid-row: 35;
   object-fit: contain;
 
@@ -186,16 +186,38 @@ body {
 }
 
 .zzip-web-caption {
-  grid-row: 8;
+  grid-row: 9;
   grid-column: 1/14;
+  align-self: end;
+  font-size: 15px;
+  line-height: 21px;
+  /* or 140% */
+  letter-spacing: 0.02em;
+  position: relative;
+  top:-150px;
+}
+
+.zzip-brandguide {
+  grid-row: 10;
+  grid-column: 1/14;
+  position: relative;
+  top:-200px;
+}
+
+.zzip-brandguide-caption {
+  grid-row: 10;
+  grid-column: 1/14;
+  text-align: right;
   align-self: end;
   font-size: 15px;
   line-height: 21px;
   /* or 140% */
 
   letter-spacing: 0.02em;
-}
 
+  position: relative;
+  top:-200px;
+}
 
 
 
