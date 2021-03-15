@@ -36,7 +36,7 @@ body {
 }
 
 .about  {
-  grid-column: 12/13;
+  grid-column: 14/15;
   grid-row: 1/2;
   text-align: right;
   align-self: start;
@@ -183,6 +183,17 @@ body {
 .zzip-web {
   grid-row: 8;
   grid-column: 1/14;
+}
+
+.zzip-web-caption {
+  grid-row: 8;
+  grid-column: 1/14;
+  align-self: end;
+  font-size: 15px;
+  line-height: 21px;
+  /* or 140% */
+
+  letter-spacing: 0.02em;
 }
 
 
