@@ -180,22 +180,23 @@ body {
   letter-spacing: 0.02em;
 }
 
-.zzip-web {
+.zzip-web-caption {
   grid-row: 8;
   grid-column: 1/14;
-}
-
-.zzip-web-caption {
-  grid-row: 9;
-  grid-column: 1/14;
-  align-self: end;
   font-size: 15px;
   line-height: 21px;
   /* or 140% */
   letter-spacing: 0.02em;
-  position: relative;
-  top:-150px;
+
 }
+
+.zzip-web {
+  margin-top: 100px;
+  grid-row: 8;
+  grid-column: 1/14;
+}
+
+
 
 .zzip-brandguide {
   grid-row: 10;
