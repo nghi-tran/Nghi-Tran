@@ -11,7 +11,7 @@ body {
 
   background: white;
   font-family: 'Michroma', sans-serif;
-  
+
 }
 
 .container {
@@ -28,10 +28,24 @@ body {
 
 }
 
+.wrapper-asterisk {text-align:center;}
+
+.spin-asterisk {
+  transition: all 800ms ease-in-out;
+  position: absolute;
+  top: 42px;
+  left: 140px;
+}
+
+.spin-asterisk:hover {
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+  transform: rotate(360deg);
+}
 
 
 .logo {
- width: 150px;
+ width: 100px;
  grid-column: 1;
  grid-row: 1/2;
 }
