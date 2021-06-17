@@ -86,6 +86,11 @@ body {
     display: none
 }
 
+.work1 span:hover {
+  font-weight: bold;
+  font-style: italic;
+}
+
 .work1 span:hover + img{
     display: block;
     position: absolute;
