@@ -9,16 +9,23 @@ h1 {
 body {
   position: relative;
 
-  background: #F4F0ED;
-  font-family: 'Helvetica', sans-serif;
+  background: #151515;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
 }
 
 .container {
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
   display: grid;
   grid-template-columns: repeat(12,auto);
   grid-auto-columns: minmax(40px,auto);
-  grid-gap: 15px;
-  padding: 150px;
+  grid-gap: 30px;
+
 
 
 }
@@ -27,75 +34,22 @@ body {
 
 }
 
-
-
 .logo {
- width: 150px;
- grid-column: 1/3;
- grid-row: 1/2;
-}
-
-.about  {
-  grid-column: 12/13;
-  grid-row: 1/2;
-  text-align: right;
-  align-self: start;
-  justify-self: end;
-  font-size: 20px;
-}
-
-.asterisk {
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 200;
-  color: #E7014D;
+ grid-column: 1/2;
 }
 
 
-.asterisk1 {
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 200;
-  color: #F4F0ED;
-}
+.nav-projects {
+ grid-column: 9/9;
+ align-self: end;
 
-.asterisk2 {
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 200;
-  color: #E7014D;
-  position: relative;
-  left: -15px;
-  bottom: -25px;
-}
-
-.nghi-introduction {
-  grid-column: 1/2;
-  grid-row: 13;
-  font-size: 20px;
-  line-height: 28px;
-  /* or 140% */
-  letter-spacing: 0.02em;
-  position: relative;
-  left: -5px;
+ font-size: 16px;
 }
 
 
+.nav-about {
+ grid-column: 11/11;
+ align-self: end;
 
-a {
-  text-decoration: none;
-  color: black;
+ font-size: 16px;
 }
-
-a:hover {
-  font-weight: bold;
-}
-
-/*
-@media screen and (max-width: 750px) {
-  .container {
-    display: grid;
-    grid-template-columns: repeat(4,auto);
-    grid-auto-columns: minmax(40px,auto);
-    grid-gap: 15px;
-    padding: 10px;
-  }
-}
-*/
