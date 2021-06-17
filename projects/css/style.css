@@ -56,6 +56,81 @@ body {
 }
 
 
+
+.project-work1 {
+ grid-column: 8/13;
+ grid-row: 4/5;
+
+ font-size: 30px;
+
+
+}
+
+.project-work2 {
+ grid-column: 8/13;
+ grid-row: 5/6;
+
+ font-size: 30px;
+
+}
+
+.project-work3 {
+ grid-column: 8/13;
+ grid-row: 6/7;
+
+ font-size: 30px;
+
+}
+
+.project-work4 {
+ grid-column: 8/13;
+ grid-row: 7/8;
+
+ font-size: 30px;
+
+}
+
+.project-work5 {
+ grid-column: 8/13;
+ grid-row: 8/9;
+
+ font-size: 30px;
+
+}
+
+.project-work6 {
+ grid-column: 8/13;
+ grid-row: 9/10;
+
+ font-size: 30px;
+
+}
+
+.project-work7 {
+ grid-column: 8/13;
+ grid-row: 10/11;
+
+ font-size: 30px;
+
+}
+
+.project-work8 {
+ grid-column: 8/13;
+ grid-row: 11/12;
+
+ font-size: 30px;
+
+}
+
+.project-work9 {
+ grid-column: 8/13;
+ grid-row: 12/13;
+
+ font-size: 30px;
+
+}
+
+
 a {
   text-decoration: none;
   color: white;
