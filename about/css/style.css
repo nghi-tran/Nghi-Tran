@@ -22,7 +22,7 @@ body {
   margin-bottom: 50px;
 
   display: grid;
-  grid-template-columns: repeat(12,auto);
+  grid-template-columns: repeat(12,1fr);
   grid-auto-columns: minmax(40px,auto);
   grid-gap: 30px;
 
@@ -40,7 +40,7 @@ body {
 
 
 .nav-projects {
- grid-column: 9/9;
+ grid-column: 8/9;
  align-self: end;
 
  font-size: 16px;
@@ -48,8 +48,57 @@ body {
 
 
 .nav-about {
- grid-column: 11/11;
+ grid-column: 11/12;
  align-self: end;
 
  font-size: 16px;
+ font-weight: bold;
+}
+
+
+.about-bio {
+  grid-column: 8/12;
+  grid-row: 3/4;
+
+  font-size: 16px;
+  line-height: 25px;
+}
+
+
+
+.about-contact {
+  grid-column: 8/12;
+  grid-row: 6/7;
+
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.about-contact span{
+  font-weight: bold;
+}
+
+
+
+.about-resume {
+  grid-column: 11/13;
+  grid-row: 6/7;
+
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.about-resume span{
+  font-weight: bold;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-weight: bold;
 }
