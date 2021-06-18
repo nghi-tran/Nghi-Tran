@@ -83,7 +83,12 @@ body {
 }
 
 
+.self-promo-pic1 {
+  grid-column: 1/13;
+  grid-row: 7/8;
 
+
+}
 
 
 
