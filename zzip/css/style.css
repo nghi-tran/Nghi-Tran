@@ -115,6 +115,13 @@ body {
   grid-row: 10/11;
 }
 
+.zzip-pic6 {
+  grid-column: 1/13;
+  grid-row: 11/12;
+}
+
+
+
 
 
 a {
