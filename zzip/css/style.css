@@ -120,6 +120,16 @@ body {
   grid-row: 11/12;
 }
 
+.web-link {
+  grid-column: 1/13;
+  grid-row: 12/13;
+  justify-self: end;
+
+  font-size: 16px;
+  font-style: italic;
+  opacity: 50%;
+}
+
 
 
 
