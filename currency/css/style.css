@@ -55,7 +55,7 @@ body {
 }
 
 
-.self-promo-title {
+.currency-title {
   grid-column: 1/5;
   grid-row: 4/5;
 
@@ -64,7 +64,7 @@ body {
   font-weight: bold;
 }
 
-.self-promo-type {
+.currency-type {
   grid-column: 1/5;
   grid-row: 4/5;
   align-self: end;
@@ -74,7 +74,7 @@ body {
   font-style: italic;
 }
 
-.self-promo-description {
+.currency-description {
   grid-column: 8/13;
   grid-row: 4/5;
 
@@ -83,7 +83,7 @@ body {
 }
 
 
-.info-pic1 {
+.currency-pic1 {
   grid-column: 1/13;
   grid-row: 7/8;
 
