@@ -93,36 +93,20 @@ body {
   grid-column: 1/13;
   grid-row: 8/9;
 
+  padding: 10%;
 }
 
 .charlie-pic3 {
-  grid-column: 1/7;
-  grid-row: 9/10;
-}
-
-.charlie-pic4 {
-  grid-column: 7/13;
-  grid-row: 9/10;
-
-  background-color: #cec9c5;
-
-  object-fit: cover;
-}
-
-
-.charlie-pic5 {
-  grid-column: 1/7;
-  grid-row: 10/11;
-}
-
-.charlie-pic6 {
   grid-column: 1/13;
-  grid-row: 11/12;
+  grid-row: 9/10;
+
 }
+
+
 
 .web-link {
   grid-column: 1/13;
-  grid-row: 12/13;
+  grid-row: 10/11;
   justify-self: end;
 
   font-size: 16px;
