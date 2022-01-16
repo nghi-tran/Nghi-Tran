@@ -14,9 +14,7 @@ body {
 }
 
 .navbar {
-  overflow: hidden;
   background-color: #3333ff;
-  width: 100%;
   height: 70px;
 
   display: grid;
@@ -27,12 +25,13 @@ body {
 }
 
 .navbar .home {
-  grid-column: 1/3;
+  grid-column: 1/5;
   align-self: center;
 
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 0.04em;
+
 }
 
 .navbar .work {
@@ -42,6 +41,7 @@ body {
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 0.04em;
+
 }
 
 .navbar .about {
@@ -51,16 +51,16 @@ body {
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 0.04em;
+
 }
 
 
 .container {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  grid-gap: 20px;
+  grid-row-gap: 50px;
+  grid-column-gap: 20px;
   padding: 50px;
-
-  height: 1000px;
 
   background-color: white;
   color: black;
@@ -71,28 +71,54 @@ body {
 
 }
 
-.project1-text {
-  color: black;
-  background-color: red;
-
-  grid-column: 1/7;
+.project1-title {
+  grid-column: 1/3;
   grid-row: 1/2;
+
+  color: black;
+
+}
+
+.project1-description {
+  grid-column: 3/7;
+  grid-row: 1/2;
+
+  color: black;
+
 }
 
 .project1-img {
-  color: black;
-  background-color: red;
-
   grid-column: 7/13;
   grid-row: 1/2;
+
+  color: black;
+  background-color: grey;
+
 }
 
-.project2 {
-  color: black;
-  background-color: red;
-
+.project2-text {
   grid-column: 1/7;
   grid-row: 2/3;
+
+  color: black;
+
+}
+
+.project2-description {
+  grid-column: 3/7;
+  grid-row: 2/3;
+
+  color: black;
+
+}
+
+.project2-img {
+  grid-column: 7/13;
+  grid-row: 2/3;
+
+  color: black;
+  background-color: grey;
+
 }
 
 
