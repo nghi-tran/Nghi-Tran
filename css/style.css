@@ -19,13 +19,17 @@ body {
 
 .navbar {
   background-color: #3333ff;
-  height: 30px;
+  height: 40px;
 
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   grid-gap: 20px;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 50px 15px 50px;
 
+}
+
+.navbar a {
+    color: white;
 }
 
 .navbar .home {
@@ -146,9 +150,8 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 a:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }

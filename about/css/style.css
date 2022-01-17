@@ -19,12 +19,12 @@ body {
 
 .navbar {
   background-color: #3333ff;
-  height: 30px;
+  height: 40px;
 
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   grid-gap: 20px;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 50px 15px 50px;
 
 }
 
@@ -84,9 +84,59 @@ body {
 
   color: #3333ff;
   font-size: 50px;
-  line-height: normal;
+  line-height: 59.65px;
+  letter-spacing: 0.03em;
 }
 
+
+.about-text {
+
+}
+
+.about-text img{
+    display: none
+}
+
+.about-text span:hover + img{
+    display: block;
+    position: absolute;
+    left: 370px;
+    top: 500px;
+}
+
+.about-text span:hover {
+  -webkit-text-decoration: solid underline;
+  text-decoration: solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+}
+
+.about1 {
+
+}
+
+.about2 {
+
+}
+
+.about3 {
+
+}
+
+.about4 {
+
+}
+
+.about5 {
+
+}
+
+.about-text a:hover {
+  -webkit-text-decoration: solid underline;
+  text-decoration: solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+}
 
 
 
@@ -97,5 +147,9 @@ a {
 }
 
 a:hover {
-  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-text a {
+  color: #3333ff;
 }
