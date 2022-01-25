@@ -2,30 +2,77 @@
 
 }
 
-h1 {
-
-}
 
 body {
-  position: relative;
+  background: white;
+  font-family: 'Helvetica', sans-serif;
+  color: black;
 
-  background: #151515;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+  padding: none;
+  margin: 00px;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 19.5px;
+
 
 }
 
-.container {
-  margin-left: 180px;
-  margin-right: 180px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.navbar {
+  background-color: #3333ff;
+  height: 40px;
 
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  grid-gap: 30px;
+  grid-gap: 20px;
+  padding: 10px 50px 15px 50px;
+
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .home {
+  grid-column: 1/5;
+  align-self: center;
+
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+
+}
+
+.navbar .work {
+  grid-column:7/8;
+  align-self: center;
+
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 0.04em;
+
+}
+
+.navbar .about {
+  grid-column:9/10;
+  align-self: center;
+
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 0.04em;
+
+}
 
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-row-gap: 50px;
+  grid-column-gap: 20px;
+
+  padding: 50px;
+
+  background-color: white;
+  color: black;
 
 }
 
@@ -33,85 +80,26 @@ body {
 
 }
 
-.logo {
- grid-column: 1/2;
+.project-name {
+  grid-column: 7/10;
+  grid-row: 1/2;
+
+  font-size: 50px;
+  color: #3333ff;
+  margin-bottom: -20px;
 }
 
+.project-description  {
+  grid-column: 7/10;
+  grid-row: 2/3;
 
-.nav-projects {
- grid-column: 8/9;
- align-self: end;
-
- font-size: 16px;
-}
-
-
-.nav-about {
- grid-column: 11/12;
- align-self: end;
-
- font-size: 16px;
-}
-
-
-.charlie-title {
-  grid-column: 1/5;
-  grid-row: 4/5;
-
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: bold;
-}
-
-.charlie-type {
-  grid-column: 1/5;
-  grid-row: 4/5;
-  align-self: end;
-
-  font-size: 16px;
-  line-height: 25px;
-  font-style: italic;
-}
-
-.charlie-description {
-  grid-column: 8/13;
-  grid-row: 4/5;
-
-  font-size: 16px;
-  line-height: 25px;
-}
-
-
-.charlie-pic1 {
-  grid-column: 1/13;
-  grid-row: 7/8;
-
-}
-
-.charlie-pic2 {
-  grid-column: 1/13;
-  grid-row: 8/9;
-
-  padding: 10%;
-}
-
-.charlie-pic3 {
-  grid-column: 1/13;
-  grid-row: 9/10;
-
+  color: #3333ff;
 }
 
 
 
-.web-link {
-  grid-column: 1/13;
-  grid-row: 10/11;
-  justify-self: end;
 
-  font-size: 16px;
-  font-style: italic;
-  opacity: 50%;
-}
+
 
 
 
@@ -119,9 +107,8 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 a:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }
