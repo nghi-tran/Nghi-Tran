@@ -1,0 +1,101 @@
+* {
+
+}
+
+h1 {
+
+}
+
+body {
+  position: relative;
+
+  background: #151515;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
+}
+
+.container {
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 30px;
+
+
+
+}
+
+.container > div {
+
+}
+
+.logo {
+ grid-column: 1/2;
+}
+
+
+.nav-projects {
+ grid-column: 8/9;
+ align-self: end;
+
+ font-size: 16px;
+}
+
+
+.nav-about {
+ grid-column: 11/12;
+ align-self: end;
+
+ font-size: 16px;
+}
+
+
+.psaid-title {
+  grid-column: 1/5;
+  grid-row: 4/5;
+
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.psaid-type {
+  grid-column: 1/5;
+  grid-row: 4/5;
+  align-self: end;
+
+  font-size: 16px;
+  line-height: 25px;
+  font-style: italic;
+}
+
+.psaid-description {
+  grid-column: 8/13;
+  grid-row: 4/5;
+
+  font-size: 16px;
+  line-height: 25px;
+}
+
+
+.psaid-pic1 {
+  grid-column: 1/13;
+  grid-row: 7/8;
+
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-weight: bold;
+}

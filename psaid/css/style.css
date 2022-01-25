@@ -54,7 +54,7 @@ body {
 }
 
 
-.psaid-title {
+.currency-title {
   grid-column: 1/5;
   grid-row: 4/5;
 
@@ -63,7 +63,7 @@ body {
   font-weight: bold;
 }
 
-.psaid-type {
+.currency-type {
   grid-column: 1/5;
   grid-row: 4/5;
   align-self: end;
@@ -73,7 +73,7 @@ body {
   font-style: italic;
 }
 
-.psaid-description {
+.currency-description {
   grid-column: 8/13;
   grid-row: 4/5;
 
@@ -82,10 +82,46 @@ body {
 }
 
 
-.psaid-pic1 {
-  grid-column: 1/13;
+.currency-pic1 {
+  grid-column: 4/13;
   grid-row: 7/8;
 
+}
+
+.currency-description1 {
+  grid-column: 1/4;
+  grid-row: 7/8;
+
+
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.currency-pic2 {
+  grid-column: 4/13;
+  grid-row: 8/9;
+
+}
+
+.currency-pic3 {
+  grid-column: 4/13;
+  grid-row: 11/12;
+
+}
+
+.currency-pic4 {
+  grid-column: 4/13;
+  grid-row: 12/13;
+
+}
+
+.currency-description2 {
+  grid-column: 1/4;
+  grid-row: 11/12;
+
+
+  font-size: 16px;
+  line-height: 25px;
 }
 
 
