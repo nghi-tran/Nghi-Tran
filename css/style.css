@@ -2,25 +2,33 @@
 
 }
 
+@font-face {
+  font-family: 'untitledsans';
+  src: url('../fonts/UntitledSans-Bold.otf');
+  font-style: bold;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'untitledsans';
+  src: url('../fonts/UntitledSans-Regular.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+
 
 body {
-  background: white;
-  font-family: 'Helvetica', sans-serif;
-  color: black;
-
+  font-family: 'untitledsans';
   padding: none;
   margin: 00px;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  line-height: 19.5px;
-
-
 }
 
 .navbar {
   background-color: #3333ff;
   height: 40px;
-
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   grid-gap: 20px;
@@ -49,6 +57,7 @@ body {
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 0.04em;
+
 
 }
 
@@ -82,7 +91,8 @@ body {
 
 .title {
   color: #3333ff;
-  font-weight: bold;
+  font-weight: normal;
+
 }
 
 
@@ -92,6 +102,9 @@ body {
 
   color: black;
 
+  letter-spacing: 0.03em;
+  line-height: 19.5px;
+
 }
 
 .project1-description {
@@ -99,6 +112,7 @@ body {
   grid-row: 1/2;
 
   color: black;
+
 
 }
 
