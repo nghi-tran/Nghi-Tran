@@ -75,14 +75,28 @@
 
 
 
-
-
 body {
   font-family: 'UntitledSans';
   font-weight: 200;
   padding: none;
   margin: 00px;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  object-fit: fill;
+}
+
+
+
 
 .navbar {
   background-color: white;
@@ -93,7 +107,7 @@ body {
   padding: 50px 50px 40px 50px;
 
   font-weight: 200;
-  font-size: 50px;
+  font-size: 40px;
 
 
 }
@@ -105,6 +119,8 @@ body {
 .navbar .home {
   grid-column: 1/5;
   align-self: center;
+
+
 
 }
 
@@ -270,24 +286,4 @@ body {
 
   color: black;
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
