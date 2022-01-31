@@ -93,10 +93,11 @@ a:hover {
   text-decoration: none;
 }
 
+/*
 img {
   width: 100%;
   object-fit: fill;
-}
+}*/
 
 
 
@@ -161,15 +162,16 @@ img {
 .container-about {
   grid-column: 7/13;
 
-  color: #3333ff;
-  font-size: 50px;
-  line-height: 59.65px;
-  letter-spacing: 0.03em;
+  font-size: 40px;
+  line-height: 50px;
+  /* or 125% */
+
+  letter-spacing: 0.02em;
 }
 
 
 .about-text {
-
+  color: black;
 }
 
 .about-text img{
@@ -188,26 +190,24 @@ img {
   text-decoration: solid underline;
   -webkit-text-underline-position: under;
   text-underline-position: under;
+
+  color: #3333ff;
 }
 
 .about1 {
-
+  color: black;
 }
 
 .about2 {
-
+  color: black;
 }
 
 .about3 {
-
+  color: black;
 }
 
-.about4 {
-
-}
-
-.about5 {
-
+.email {
+  color: black;
 }
 
 .about-text a:hover {
@@ -215,20 +215,6 @@ img {
   text-decoration: solid underline;
   -webkit-text-underline-position: under;
   text-underline-position: under;
-}
 
-
-
-
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.about-text a {
   color: #3333ff;
 }
