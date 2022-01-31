@@ -149,9 +149,9 @@ img {
   grid-row-gap: 0px;
   grid-column-gap: 20px;
 
-  padding: 50px;
+  padding: 50px 50px 50px 50px;
 
-  background-color: white;
+  background-color: none;
   color: black;
 
 }
@@ -183,7 +183,9 @@ color: #3333ff;
 }
 
 .project1 img{
-    display: none
+    display: none;
+
+
 }
 
 .project1 span {
@@ -200,19 +202,20 @@ color: #3333ff;
 }
 
 .project1 span:hover + img{
-    display: block;
+  width:45%;
+  display: block;
 
-    position: absolute;
-    left: 50px;
-    top: 180px;
+  position: absolute;
+  left: 50px;
 
-    z-index: 2;
+  z-index: -2;
+
 }
 
 .border1  {
   border-width: 2px 0px 1.5px 0px;
   border-style: solid;
-  padding: 30px 0px 45px 0px;
+  padding: 25px 0px 35px 0px;
 
   grid-column: 7/13;
   grid-row: 1/2;
@@ -275,19 +278,19 @@ color: #3333ff;
 }
 
 .project2 span:hover + img{
-    display: block;
+  width:45%;
+  display: block;
 
-    position: absolute;
-    left: 50px;
-    top: 180px;
+  position: absolute;
+  left: 50px;
 
-    z-index: 2;
+  z-index: -2;
 }
 
 .border2  {
   border-width: 1.5px 0px 1.5px 0px;
   border-style: solid;
-  padding: 30px 0px 45px 0px;
+  padding: 25px 0px 35px 0px;
 
   grid-column: 7/13;
   grid-row: 2/3;
@@ -350,19 +353,19 @@ color: #3333ff;
 }
 
 .project3 span:hover + img{
-    display: block;
+  width:45%;
+  display: block;
 
-    position: absolute;
-    left: 50px;
-    top: 180px;
+  position: absolute;
+  left: 50px;
 
-    z-index: 2;
+  z-index: -2;
 }
 
 .border3  {
   border-width: 1.5px 0px 1.5px 0px;
   border-style: solid;
-  padding: 30px 0px 45px 0px;
+  padding: 25px 0px 35px 0px;
 
   grid-column: 7/13;
   grid-row: 3/4;
@@ -425,19 +428,19 @@ color: #3333ff;
 }
 
 .project4 span:hover + img{
-    display: block;
+  width:45%;
+  display: block;
 
-    position: absolute;
-    left: 50px;
-    top: 180px;
+  position: absolute;
+  left: 50px;
 
-    z-index: 2;
+  z-index: -2;
 }
 
 .border4  {
   border-width: 1.5px 0px 1.5px 0px;
   border-style: solid;
-  padding: 30px 0px 45px 0px;
+  padding: 25px 0px 35px 0px;
 
   grid-column: 7/13;
   grid-row: 4/5;
@@ -500,19 +503,19 @@ color: #3333ff;
 }
 
 .project5 span:hover + img{
-    display: block;
+  width:45%;
+  display: block;
 
-    position: absolute;
-    left: 50px;
-    top: 180px;
+  position: absolute;
+  left: 50px;
 
-    z-index: 2;
+  z-index: -2;
 }
 
 .border5  {
   border-width: 1.5px 0px 1.5px 0px;
   border-style: solid;
-  padding: 30px 0px 45px 0px;
+  padding: 25px 0px 35px 0px;
 
   grid-column: 7/13;
   grid-row: 5/6;
@@ -575,19 +578,19 @@ color: #3333ff;
 }
 
 .project6 span:hover + img{
-    display: block;
+  width:45%;
+  display: block;
 
-    position: absolute;
-    left: 50px;
-    top: 180px;
+  position: absolute;
+  left: 50px;
 
-    z-index: 2;
+  z-index: -2;
 }
 
 .border6  {
   border-width: 1.5px 0px 1.5px 0px;
   border-style: solid;
-  padding: 30px 0px 45px 0px;
+  padding: 25px 0px 35px 0px;
 
   grid-column: 7/13;
   grid-row: 6/7;
@@ -651,19 +654,19 @@ color: #3333ff;
 }
 
 .project7 span:hover + img{
-    display: block;
+  width:45%;
+  display: block;
 
-    position: absolute;
-    left: 50px;
-    top: 180px;
+  position: absolute;
+  left: 50px;
 
-    z-index: 2;
+  z-index: -2;
 }
 
 .border7  {
   border-width: 1.5px 0px 2px 0px;
   border-style: solid;
-  padding: 30px 0px 45px 0px;
+  padding: 25px 0px 35px 0px;
 
   grid-column: 7/13;
   grid-row: 7/8;
